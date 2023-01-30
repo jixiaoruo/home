@@ -70,7 +70,7 @@ let linksData = [
   {
     icon: Flask,
     name: "实验室",
-    link: "https://lab.imsyy.top/",
+    link: "https://xiatian.netlify.app/tvbox.html/",
   },
 ];
 
