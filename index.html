@@ -4,9 +4,9 @@
   <title>Image</title>
 </head>
 <body onload="refreshImage()">
-<img id="slideshow" src="./public/images/background1.webp">
+<img id="slideshow" src="./images/w1.png">
 <script>
-  var images = ["./public/images/background2.webp", "./public/images/background3.webp", "./public/images/background1.webp"];
+  var images = ["./images/w1.png", "./images/w2.png",  "./images/w3.png","./images/w4.png"];
   function refreshImage() {
     var randomNumber = Math.floor(Math.random() * images.length);
     var image = document.getElementById("slideshow");
